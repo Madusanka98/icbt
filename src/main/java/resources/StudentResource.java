@@ -23,8 +23,8 @@ import java.util.List;
 @Path("students")
 public class StudentResource {
     static List<Student> students = new ArrayList<>();
-
-    Gson gson = new Gson();
+    //Gson
+    Gson gson = new Gson(); 
 
     public StudentResource() {
         
